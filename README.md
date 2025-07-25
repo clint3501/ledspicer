@@ -9,9 +9,13 @@ I am including in this description and the associated tar ball all the working f
 There are numerous files available on github and elsewhere with different configs all made free by a few individuals who are doing great work.  It’s a relative mess due to it being a moving target because of the multitude of hardware/emulator/rom variations everyone is using. There is no gold standard for obvious reasons. When I was putting together this information, i.e. initially trying to configure things, I was not as diligent as I should have been to identify what file I got from where.  
 
 Here are a few key links that are worth exploring first, these were the sources I got all my information from.
+
 •	https://github.com/MrRobot-108
+
 •	https://github.com/meduzapat/LEDSpicer
+
 •	https://github.com/meduzapat/LEDSpicer/wiki/
+
 •	Discord for Ledspicer is another great source  https://discord.com/channels/1187485303313809528/1187485303766782004  (this should work or just log into discord and search for ledspicer)
 
 When I had a few issues, I leaned in on Discord and got some great help.  If you go to Discord, there is a lot of information here regarding ledspicer and it is worth looking over it before asking any questions.

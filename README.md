@@ -104,6 +104,8 @@ f.	animation (delete the readme.txt file in the original directory first)
 g.	gameData.xml
 h.	basicColors.xml
 
+2) The directory should look like this
+   
 <img width="811" height="342" alt="image" src="https://github.com/user-attachments/assets/2a1b512c-39d7-4f41-9286-e33e2cc14b75" />
 
 3) Now go to userdata/system/configs/emulationstation and copy the scripts directory into the emulationstation directory
@@ -122,10 +124,15 @@ userdata/system/configs/emulationstation/scripts
 <img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/06a77197-db25-4261-a7de-a6985ac7f6c0" />
 
 6)	Run in a terminal (putty) by entering the following commands.
+7)	
 chmod +x /userdata/system/configs/emulationstation/scripts/system-selected/system-selected.sh
+
 chmod +x /userdata/system/configs/emulationstation/scripts/game-start/game-start.sh
+
 chmod +x /userdata/system/configs/emulationstation/scripts/game-selected/game-selected.sh
+
 chmod +x /userdata/system/configs/emulationstation/scripts/game-end/game-end.sh
+
 
 In discord the basicColors.xml was commented it was preloaded on install, that was not my case, so the file is in the group provided.
 That’s it, at least for my configuration.

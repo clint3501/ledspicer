@@ -42,7 +42,7 @@ I got all my initial files from github and frankly I cannot remember if I got ev
 3.	colors.ini
 4.	scripts for changing colors
 5.	profiles default.xml & profile_arcade.xml
-6.	
+   
 The desired location for ledspicer is userdata/systems/configs.
 
 The profile_arcade.xml is loaded for any detected game (requires animation scripts).  In many of the ledspicer.conf files default.xml is called.  I decided to use profile_arcade.xml to keep a default.xml if I needed it in the future.  Use what you want for the file name just make sure the ledspicer.conf file called matches what is in the profile directory.

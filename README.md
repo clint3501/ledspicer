@@ -117,9 +117,13 @@ h.	basicColors.xml
 <img width="719" height="219" alt="image" src="https://github.com/user-attachments/assets/a26567b6-47ff-499d-9a54-e6e21e6abb7c" />
 
 4)	Check to see that all four files transferred in the scripts directory
+   
 •	Game-end
+
 •	Game-selected
+
 •	Game-start
+
 •	System-selected
 
 5)	The directory rights should have transferred, however, to be safe open a Putty terminal and navigate to the directory

@@ -19,12 +19,15 @@ When I had a few issues, I leaned in on Discord and got some great help.  If you
 I am using an Ultimarc PacLED64 for controlling my LED buttons both of which I got from Ultimarc.   I initially attempted to get Ledspicer running using a Ultimarc Ultimate IO board.  However, I am using Batocera v41 and the Ultimate IO board when using Batocera cannot use ledspicer, there is some licensing issue with Xbox as it was later explained by Ultimarc.  In short ledspicer does not like interfacing to a led controller that is identified as a keyboard.  Therefore, I switched the LED control to the PacLED64 but kept the controller functions with Ultimate since I had it already which is a slight overkill for what I am doing.
 
 The following is a picture of my completed arcade cabinet.
+
 <img width="317" height="563" alt="image" src="https://github.com/user-attachments/assets/b40bb801-6c1b-4121-a359-8a48f0ee3fa9" />
 
 The following is diagram of my control panel 
+
 <img width="551" height="235" alt="image" src="https://github.com/user-attachments/assets/25207b03-1367-4495-93d1-8417b655a9e2" />
 
 Here is a brief high-level system diagram of my configuration
+
 <img width="529" height="599" alt="image" src="https://github.com/user-attachments/assets/17720458-1e95-4eab-b402-023c5804bab8" />
 
 As several have suggested please review the ledspicer file structure and ledspicer/emitter commands both are important later if there are any issues.

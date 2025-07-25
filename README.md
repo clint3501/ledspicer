@@ -39,6 +39,7 @@ However, the files you need are listed next, get them organized so you can copy 
 <img width="975" height="1305" alt="image" src="https://github.com/user-attachments/assets/be45093d-0ef9-49db-bd88-74b3a52c54d1" />
 
 Install Instructions:
+
 I got all my initial files from github and frankly I cannot remember if I got everything here from Meduzapat or Mr Robot or if it’s a combined thing.  Anyway  
 1.	ledspicer.conf (hardware related)
 2.	controls.ini
@@ -63,6 +64,7 @@ You will also need to use Putty to get permissions for some directories.
 The following are my instructions.  I reloaded everything onto a fresh batocera load when I typed these instructions and hopefully there are no errors.
 
 1)	Install:
+   
 Before you begin installing you need to check if ledspicer is enabled already.   Using WinSCP to navigate to the directory userdata/system/configs and check to see if ledspicer folder is present, if it is it was previous turned.  If you see ledspicer as a directory, then it was previously activated.
 
 If ledspicer is not activated, then you will need to (2) Activate Ledspicer.If it is activated just skip the Activate Ledspicer section and go to (3) Configuring Ledspicer.
@@ -102,9 +104,9 @@ f.	animation (delete the readme.txt file in the original directory first)
 g.	gameData.xml
 h.	basicColors.xml
 
-2) <img width="811" height="342" alt="image" src="https://github.com/user-attachments/assets/2a1b512c-39d7-4f41-9286-e33e2cc14b75" />
+<img width="811" height="342" alt="image" src="https://github.com/user-attachments/assets/2a1b512c-39d7-4f41-9286-e33e2cc14b75" />
 
-3)	Now go to userdata/system/configs/emulationstation and copy the scripts directory into the emulationstation directory
+3) Now go to userdata/system/configs/emulationstation and copy the scripts directory into the emulationstation directory
 
 <img width="719" height="219" alt="image" src="https://github.com/user-attachments/assets/a26567b6-47ff-499d-9a54-e6e21e6abb7c" />
 
@@ -118,6 +120,7 @@ h.	basicColors.xml
 userdata/system/configs/emulationstation/scripts
 
 <img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/06a77197-db25-4261-a7de-a6985ac7f6c0" />
+
 6)	Run in a terminal (putty) by entering the following commands.
 chmod +x /userdata/system/configs/emulationstation/scripts/system-selected/system-selected.sh
 chmod +x /userdata/system/configs/emulationstation/scripts/game-start/game-start.sh

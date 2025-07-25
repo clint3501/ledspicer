@@ -132,7 +132,7 @@ userdata/system/configs/emulationstation/scripts
 <img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/06a77197-db25-4261-a7de-a6985ac7f6c0" />
 
 6)	Run in a terminal (putty) by entering the following commands.
-7)	
+   
 chmod +x /userdata/system/configs/emulationstation/scripts/system-selected/system-selected.sh
 
 chmod +x /userdata/system/configs/emulationstation/scripts/game-start/game-start.sh

@@ -150,6 +150,7 @@ You will need to restart Batocera now (do a complete shutdown).
 When you restart Batocera the led lights should respond.  You can then modify the leds as desired or just keep them as is.
 
 Some notes:
+
 1.	Ledspicer.conf is set up for my configuration, please note the board name used. Everything will fail if the wrong board name is used.  If you are not using a PacLed64 board then you will need to find an example to follow which I did not provide.
 
 <devices>
@@ -160,6 +161,7 @@ Some notes:
 2.	Profiles directory has an excel sheet for configurating the button color profiles   Change the profile configuration in the excel sheet, save it to the profiles directory and then select (run) the generate.py file by double clicking it.  The generate.py will auto populate the system profiles as you want. You can change it as repeatedly until you get things the way you want them.
 
 3.	Arcade directory (MAME profiles)– this is located in the profiles directory and there is an excel sheet for configurating the button colors of the MAME games.  The excel file is roms_ledspicer.  I modified the generate script for this do it will use the rom_ledspicer file for games and remembering it’s for games and not a system.  Easier from my viewpoint instead of hunting and pecking the game profiles or just running another instance of the system_ledspicer
+   
 4.	To change animation once set up need to modify profiles_arcade.xml file (or default.xml if you went down that path)
 
 

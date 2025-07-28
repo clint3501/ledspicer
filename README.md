@@ -55,6 +55,15 @@ The desired location for ledspicer is userdata/systems/configs.
 
 The profile_arcade.xml is loaded for any detected game (requires animation scripts).  In many of the ledspicer.conf files default.xml is called.  I decided to use profile_arcade.xml to keep a default.xml if I needed it in the future.  Use what you want for the file name just make sure the ledspicer.conf file called matches what is in the profile directory.
 
+<<UPDATE>>
+(From Mr Robot: You need both, default.xml & profile_arcade.xml. default.xml is the profile which ledspicerd loads on startup. profile_arcade.xml is the "default" file for craft profiles if you use the game database colors.ini/controls.ini.  
+
+Mr Robot also pointed out that the profile_arcade.xml does not require animation scripts 
+
+My comment: I used the profile_arcade.xml which has the default animation and the default.xml has button colors defined.  However in the ledspicerd.conf I called out profile_arcade.xml in place of the default.xml and all works fine at my end.)
+
+<<END UPDATE>>
+
 The ledspicer.conf file supplied is configured for my system.   This is a key file, and you may need to change this if you are usings a different LED control board or have your LEDs assigned differently than what I did. 
 
 I had some issues with a few MAME files like defender and missile command where I had a hard time getting the color scheme to work.  The culprit was the rom name while appearing to be the same was not, so I did the rename copy the file name and use that for the profile name in the rom_ledspicer.csv to get things working the way I wanted.  I probably missed something but this brute force approach worked and I moved on.  Of course, you will need to map the MAME functions to the buttons to match the led color scheme I used or make your own.
@@ -127,7 +136,7 @@ h.	basicColors.xml
 •	System-selected
 
 5)	The directory rights should have transferred, however, to be safe open a Putty terminal and navigate to the directory
-userdata/system/configs/emulationstation/scripts
+userdata/system/configs/emulationstation/scripts  (update: Mr Robot highly recommends running the chmod commands below) 
 
 <img width="707" height="277" alt="image" src="https://github.com/user-attachments/assets/06a77197-db25-4261-a7de-a6985ac7f6c0" />
 

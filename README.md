@@ -60,7 +60,7 @@ The profile_arcade.xml is loaded for any detected game (requires animation scrip
 
 Mr Robot also pointed out that the profile_arcade.xml does not require animation scripts 
 
-My comment: I used the profile_arcade.xml which has the default animation and the default.xml has button colors defined.  However in the ledspicerd.conf I called out profile_arcade.xml in place of the default.xml and all works fine at my end.)
+My comment: I used the profile_arcade.xml which has my default animation and the default.xml has button colors defined.  However in the ledspicerd.conf I called out profile_arcade.xml in place of the default.xml and all works fine at my end.)
 
 <<END UPDATE>>
 
